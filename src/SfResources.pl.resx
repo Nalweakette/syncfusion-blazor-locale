@@ -195,6 +195,18 @@
   <data name="DropDownList_NoRecordsTemplate" xml:space="preserve">
     <value>Nic nie znaleziono</value>
   </data>
+  <data name="DropDownTree_NoRecords" xml:space="preserve">
+    <value>Nic nie znaleziono</value>
+  </data>
+  <data name="DropDownTree_RequestFailed" xml:space="preserve">
+    <value>ŻŻŻądanie nie powiodło się</value>
+  </data>
+  <data name="DropDownTree_SelectAll" xml:space="preserve">
+    <value>Zaznacz wszystko</value>
+  </data>
+  <data name="DropDownTree_UnSelectAll" xml:space="preserve">
+    <value>Odznacz wszystko</value>
+  </data>
   <data name="Mention_NoRecordsTemplate" xml:space="preserve">
     <value>Nic nie znaleziono</value>
   </data>
@@ -591,6 +603,9 @@
   <data name="Slider_IncrementTitle" xml:space="preserve">
     <value>Zwiększać</value>
   </data>
+  <data name="Stepper_Optional" xml:space="preserve">
+    <value>Opcjonalny</value>
+  </data>
   <data name="Maps_ImageNotFound" xml:space="preserve">
     <value>Nie znaleziono obrazu</value>
   </data>
@@ -703,7 +718,13 @@
     <value>Rozwiń wszystkie</value>
   </data>
   <data name="Gantt_Finish" xml:space="preserve">
-    <value>koniec</value>
+    <value>Koniec</value>
+  </data>
+  <data name="Gantt_FS" xml:space="preserve">
+    <value>KP</value>
+  </data>
+  <data name="Gantt_FF" xml:space="preserve">
+    <value>KK</value>
   </data>
   <data name="Gantt_From" xml:space="preserve">
     <value>Od</value>
@@ -776,6 +797,12 @@
   </data>
   <data name="Gantt_Start" xml:space="preserve">
     <value>Początek</value>
+  </data>
+  <data name="Gantt_SS" xml:space="preserve">
+    <value>PP</value>
+  </data>
+  <data name="Gantt_SF" xml:space="preserve">
+    <value>PK</value>
   </data>
   <data name="Gantt_StartDate" xml:space="preserve">
     <value>Data rozpoczęcia</value>
@@ -899,6 +926,18 @@
   </data>
   <data name="Gantt_CriticalPath" xml:space="preserve">
     <value>Ścieżki krytycznej</value>
+  </data>
+  <data name="Gantt_Segment" xml:space="preserve">
+    <value>Segmenty</value>
+  </data>
+  <data name="Gantt_SplitTask" xml:space="preserve">
+    <value>Podziel zadanie</value>
+  </data>
+  <data name="Gantt_MergeTask" xml:space="preserve">
+    <value>Połącz zadanie</value>
+  </data>
+  <data name="Gantt_UnassignedTasks" xml:space="preserve">
+    <value>Nieprzydzielone zadania</value>
   </data>
   <data name="ColorPicker_Apply" xml:space="preserve">
     <value>Zastosować</value>
@@ -1755,6 +1794,9 @@
   <data name="PivotView_Top" xml:space="preserve">
     <value>Szczyt</value>
   </data>
+  <data name="PivotView_ApplyToGrandTotal" xml:space="preserve">
+    <value>Zastosuj do sumy całkowitej</value>
+  </data>
   <data name="QueryBuilder_AddCondition" xml:space="preserve">
     <value>Dodaj warunek</value>
   </data>
@@ -1955,12 +1997,6 @@
   </data>
   <data name="ImageEditor_FillColorTooltip" xml:space="preserve">
     <value>Kolor wypełnienia</value>
-  </data>
-  <data name="ImageEditor_OkBtnTooltip" xml:space="preserve">
-    <value>dobrze</value>
-  </data>
-  <data name="ImageEditor_CancelBtnTooltip" xml:space="preserve">
-    <value>Anuluj</value>
   </data>
   <data name="ImageEditor_ResetBtnTooltip" xml:space="preserve">
     <value>Resetowanie</value>
@@ -2319,6 +2355,15 @@
   <data name="RichTextEditor_FormatsDropDownHeading6" xml:space="preserve">
     <value>Nagłówek   6</value>
   </data>
+  <data name="RichTextEditor_FormatsDropDownHeading7" xml:space="preserve">
+    <value>Nagłówek   7</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading8" xml:space="preserve">
+    <value>Nagłówek   8</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading9" xml:space="preserve">
+    <value>Nagłówek   9</value>
+  </data>
   <data name="RichTextEditor_FontNameSegoeUI" xml:space="preserve">
     <value>Segoe UI</value>
   </data>
@@ -2326,16 +2371,16 @@
     <value>Arial</value>
   </data>
   <data name="RichTextEditor_FontNameGeorgia" xml:space="preserve">
-    <value>Gruzja</value>
+    <value>Georgia</value>
   </data>
   <data name="RichTextEditor_FontNameImpact" xml:space="preserve">
-    <value>Wpływ</value>
+    <value>Impact</value>
   </data>
   <data name="RichTextEditor_FontNameTahoma" xml:space="preserve">
     <value>Tahoma</value>
   </data>
   <data name="RichTextEditor_FontNameTimesNewRoman" xml:space="preserve">
-    <value>Nowe czasy rzymski</value>
+    <value>Times New Roman</value>
   </data>
   <data name="RichTextEditor_FontNameVerdana" xml:space="preserve">
     <value>Verdana</value>
@@ -2503,7 +2548,7 @@
     <value>Wpisz tytuł</value>
   </data>
   <data name="RichTextEditor_LinkUrl" xml:space="preserve">
-    <value>http://example.com</value>
+    <value>https://example.com</value>
   </data>
   <data name="RichTextEditor_LinkOpenInNewWindow" xml:space="preserve">
     <value>Otwórz link w nowym oknie</value>
@@ -2565,8 +2610,14 @@
   <data name="RichTextEditor_VideoHeight" xml:space="preserve">
     <value>Wysokość</value>
   </data>
+  <data name="RichTextEditor_AudioDeviceUploadMessage" xml:space="preserve">
+    <value>Kliknij tutaj, aby przesłać</value>
+  </data>
+  <data name="RichTextEditor_AudioUploadMessage" xml:space="preserve">
+    <value>Upuść plik audio lub przeglądaj, aby go przesłać</value>
+  </data>
   <data name="RichTextEditor_ImageUrl" xml:space="preserve">
-    <value>http://example.com/image.png</value>
+    <value>https://example.com/image.png</value>
   </data>
   <data name="RichTextEditor_ImageCaption" xml:space="preserve">
     <value>Podpis</value>
@@ -2605,16 +2656,16 @@
     <value>Liczba rzędów</value>
   </data>
   <data name="RichTextEditor_TableRows" xml:space="preserve">
-    <value>Rzędy stołowe</value>
+    <value>Wiersz</value>
   </data>
   <data name="RichTextEditor_TableColumns" xml:space="preserve">
-    <value>Kolumny tabeli</value>
+    <value>Kolumna</value>
   </data>
   <data name="RichTextEditor_TableCellHorizontalAlign" xml:space="preserve">
     <value>Tabela komórek Wyrównanie w poziomie</value>
   </data>
   <data name="RichTextEditor_TableCellVerticalAlign" xml:space="preserve">
-    <value>Tabela komórek Pionowe wyrównanie</value>
+    <value>Wyrównanie w pionie</value>
   </data>
   <data name="RichTextEditor_CreateTable" xml:space="preserve">
     <value>Utwórz tabelę</value>
@@ -2623,7 +2674,7 @@
     <value>Usuń tabelę</value>
   </data>
   <data name="RichTextEditor_TableHeader" xml:space="preserve">
-    <value>Nagłówek tabeli</value>
+    <value>Wiersz nagłówka</value>
   </data>
   <data name="RichTextEditor_TableRemove" xml:space="preserve">
     <value>Usuń tabelę</value>
@@ -2766,6 +2817,15 @@
   <data name="RichTextEditor_Video_Dimension" xml:space="preserve">
     <value>Wymiar</value>
   </data>
+  <data name="RichTextEditor_Link_AriaLabel" xml:space="preserve">
+    <value>Otworzyć w nowym oknie</value>
+  </data>
+  <data name="RichTextEditor_Image_Link_AriaLabel" xml:space="preserve">
+    <value>Otworzyć w nowym oknie</value>
+  </data>
+  <data name="RichTextEditor_Img_AltText_Unsupported" xml:space="preserve">
+    <value>Niewspierany format pliku</value>
+  </data>
   <data name="DiagramComponent_X" xml:space="preserve">
     <value>x</value>
   </data>
@@ -2821,7 +2881,7 @@
     <value>Rozgrupuj</value>
   </data>
   <data name="Grid_EmptyRecord" xml:space="preserve">
-    <value>brak nagrań do odtworzenia</value>
+    <value>Brak rekordów do wyświetlenia</value>
   </data>
   <data name="Grid_True" xml:space="preserve">
     <value>prawdziwe</value>
@@ -2851,7 +2911,7 @@
     <value>Dodaj</value>
   </data>
   <data name="Grid_Edit" xml:space="preserve">
-    <value>Edytować</value>
+    <value>Edytuj</value>
   </data>
   <data name="Grid_Cancel" xml:space="preserve">
     <value>Anuluj</value>
@@ -2860,10 +2920,10 @@
     <value>Aktualizacja</value>
   </data>
   <data name="Grid_Delete" xml:space="preserve">
-    <value>Usunąć</value>
+    <value>Usuń</value>
   </data>
   <data name="Grid_Print" xml:space="preserve">
-    <value>Wydrukować</value>
+    <value>Drukuj</value>
   </data>
   <data name="Grid_Pdfexport" xml:space="preserve">
     <value>Eksport do pliku PDF</value>
@@ -2932,13 +2992,28 @@
     <value>kolumny wyszukiwania</value>
   </data>
   <data name="Grid_Matchs" xml:space="preserve">
-    <value>Nie znaleziono żadnego meczu</value>
+    <value>Nie znaleziono żadnego dopasowania</value>
   </data>
   <data name="Grid_FilterButton" xml:space="preserve">
-    <value>Filtr</value>
+    <value>Filtruj</value>
   </data>
   <data name="Grid_ClearButton" xml:space="preserve">
-    <value>Jasny</value>
+    <value>Wyczyść</value>
+  </data>
+  <data name="Grid_IsNull" xml:space="preserve">
+    <value>Zero</value>
+  </data>
+  <data name="Grid_IsNotNull" xml:space="preserve">
+    <value>Nie jest zerem</value>
+  </data>
+  <data name="Grid_IsEmpty" xml:space="preserve">
+    <value>Pusty</value>
+  </data>
+  <data name="Grid_IsNotEmpty" xml:space="preserve">
+    <value>Nie pusty</value>
+  </data>
+  <data name="Grid_Like" xml:space="preserve">
+    <value>Tak jak</value>
   </data>
   <data name="Grid_StartsWith" xml:space="preserve">
     <value>Zaczynać z</value>
@@ -2948,6 +3023,15 @@
   </data>
   <data name="Grid_Contains" xml:space="preserve">
     <value>Zawiera</value>
+  </data>
+  <data name="Grid_DoesNotStartWith" xml:space="preserve">
+    <value>Nie zaczyna się od</value>
+  </data>
+  <data name="Grid_DoesNotEndWith" xml:space="preserve">
+    <value>Nie kończy się na</value>
+  </data>
+  <data name="Grid_DoesNotContain" xml:space="preserve">
+    <value>Nie zawiera</value>
   </data>
   <data name="Grid_Equal" xml:space="preserve">
     <value>Równy</value>
@@ -3009,6 +3093,12 @@
   <data name="Grid_SortDescending" xml:space="preserve">
     <value>Sortuj malejąco</value>
   </data>
+  <data name="Grid_SortedAscending" xml:space="preserve">
+    <value>Posortowane rosnąco</value>
+  </data>
+  <data name="Grid_SortedDescending" xml:space="preserve">
+    <value>Posortowane w kolejności malejącej</value>
+  </data>
   <data name="Grid_EditRecord" xml:space="preserve">
     <value>Edytuj rekord</value>
   </data>
@@ -3020,6 +3110,9 @@
   </data>
   <data name="Grid_SelectAll" xml:space="preserve">
     <value>Zaznacz wszystko</value>
+  </data>
+  <data name="Grid_AddCurrentSelection" xml:space="preserve">
+    <value>Dodaj bieżący wybór do filtra</value>
   </data>
   <data name="Grid_Blanks" xml:space="preserve">
     <value>Puste</value>
@@ -3146,6 +3239,9 @@
   </data>
   <data name="Grid_FilterValue" xml:space="preserve">
     <value>wartość filtra</value>
+  </data>
+  <data name="Grid_SelectRowARIA" xml:space="preserve">
+    <value>Wybierz wiersz</value>
   </data>
   <data name="Pager_Page" xml:space="preserve">
     <value>Strona</value>
@@ -3435,6 +3531,9 @@
   <data name="Schedule_MoreDetails" xml:space="preserve">
     <value>Więcej szczegółów</value>
   </data>
+  <data name="Schedule_MoreEvents" xml:space="preserve">
+    <value>Więcej wydarzeń</value>
+  </data>
   <data name="Schedule_NewEvent" xml:space="preserve">
     <value>Nowe wydarzenie</value>
   </data>
@@ -3464,6 +3563,9 @@
   </data>
   <data name="Schedule_Recurrence" xml:space="preserve">
     <value>Nawrót</value>
+  </data>
+  <data name="Schedule_RecurringEvent" xml:space="preserve">
+    <value>Powtarzające się wydarzenie</value>
   </data>
   <data name="Schedule_Repeat" xml:space="preserve">
     <value>Powtarzać</value>
@@ -3600,6 +3702,9 @@
   <data name="PdfViewer_FileCorruptedContent" xml:space="preserve">
     <value>Plik jest uszkodzony i nie można go otworzyć.</value>
   </data>
+  <data name="PdfViewer_FitHeight" xml:space="preserve">
+    <value>Dopasuj wysokość</value>
+  </data>
   <data name="PdfViewer_FitPage" xml:space="preserve">
     <value>Dopasuj stronę</value>
   </data>
@@ -3611,6 +3716,228 @@
   </data>
   <data name="PdfViewer_GoToFirstPage" xml:space="preserve">
     <value>Pokaż pierwszą stronę</value>
+  </data>
+  <data name="PdfViewer_NavigateToFirstPage" xml:space="preserve">
+    <value>Przejdź do pierwszej strony</value>
+  </data>
+  <data name="PdfViewer_NavigateToPreviousPage" xml:space="preserve">
+    <value>Przejdź do poprzedniej strony</value>
+  </data>
+  <data name="PdfViewer_NavigateToNextPage" xml:space="preserve">
+    <value>Przejdź do następnej strony</value>
+  </data>
+  <data name="PdfViewer_NavigateToLastPage" xml:space="preserve">
+    <value>Przejdź do ostatniej strony</value>
+  </data>
+  <data name="PdfViewer_GoToPageNumberTextBox" xml:space="preserve">
+    <value>Przejdź do pola numeru strony</value>
+  </data>
+  <data name="PdfViewer_PageZoomOut" xml:space="preserve">
+    <value>Zoom na stronie w dół</value>
+  </data>
+  <data name="PdfViewer_PageZoomIn" xml:space="preserve">
+    <value>Zoom na stronie w górę</value>
+  </data>
+  <data name="PdfViewer_ZoomRatioCombo" xml:space="preserve">
+    <value>Combo powiększenia</value>
+  </data>
+  <data name="PdfViewer_SubmitFormField" xml:space="preserve">
+    <value>Przycisk wysyłania formularza. Kliknij ten przycisk, aby zapisać wartości pól formularza jako plik JSON.</value>
+  </data>
+  <data name="PdfViewer_SearchPageText" xml:space="preserve">
+    <value>Wyszukaj tekst</value>
+  </data>
+  <data name="PdfViewer_ShapesDropDownButton" xml:space="preserve">
+    <value>Przycisk rozwijany kształtów</value>
+  </data>
+  <data name="PdfViewer_ShapesDropDownPopupOpened" xml:space="preserve">
+    <value>Popup rozwijany kształtów otwarty</value>
+  </data>
+  <data name="PdfViewer_ShapesLineMenuItem" xml:space="preserve">
+    <value>Element menu linii 1 z 5</value>
+  </data>
+  <data name="PdfViewer_ShapesArrowMenuItem" xml:space="preserve">
+    <value>Element menu strzałki 2 z 5</value>
+  </data>
+  <data name="PdfViewer_ShapesRectangleMenuItem" xml:space="preserve">
+    <value>Element menu prostokąta 3 z 5</value>
+  </data>
+  <data name="PdfViewer_ShapesCircleMenuItem" xml:space="preserve">
+    <value>Element menu okręgu 4 z 5</value>
+  </data>
+  <data name="PdfViewer_ShapesPolygonMenuItem" xml:space="preserve">
+    <value>Element menu wielokąta 5 z 5</value>
+  </data>
+  <data name="PdfViewer_CalibrateShapesDropdownButton" xml:space="preserve">
+    <value>Przycisk rozwijany kalibracji kształtów</value>
+  </data>
+  <data name="PdfViewer_CalibrateShapesDropDownPopupOpened" xml:space="preserve">
+    <value>Popup rozwijany kalibracji kształtów otwarty</value>
+  </data>
+  <data name="PdfViewer_DistanceMenuItem" xml:space="preserve">
+    <value>Element menu odległości 1 z 5</value>
+  </data>
+  <data name="PdfViewer_PerimeterMenuItem" xml:space="preserve">
+    <value>Element menu obwodu 2 z 5</value>
+  </data>
+  <data name="PdfViewer_AreaMenuItem" xml:space="preserve">
+    <value>Element menu powierzchni 3 z 5</value>
+  </data>
+  <data name="PdfViewer_RadiusMenuItem" xml:space="preserve">
+    <value>Element menu promienia 4 z 5</value>
+  </data>
+  <data name="PdfViewer_VolumeMenuItem" xml:space="preserve">
+    <value>Element menu objętości 5 z 5</value>
+  </data>
+  <data name="PdfViewer_StampDropdownButtonCollapsed" xml:space="preserve">
+    <value>Przycisk rozwijany stempla, złożony</value>
+  </data>
+  <data name="PdfViewer_DynamicStampMenuItem" xml:space="preserve">
+    <value>Dynamiczny stempel 1 z 4</value>
+  </data>
+  <data name="PdfViewer_ApprovedStampMenuItem" xml:space="preserve">
+    <value>Zaakceptowany stempel 1 z 6</value>
+  </data>
+  <data name="PdfViewer_NotApprovedStampMenuItem" xml:space="preserve">
+    <value>Niezaakceptowany stempel 3 z 6</value>
+  </data>
+  <data name="PdfViewer_ConfidentialStampMenuItem" xml:space="preserve">
+    <value>Poufny stempel 2 z 6</value>
+  </data>
+  <data name="PdfViewer_ReceivedStampMenuItem" xml:space="preserve">
+    <value>Odebrany stempel 4 z 6</value>
+  </data>
+  <data name="PdfViewer_ReviewedStampMenuItem" xml:space="preserve">
+    <value>Przejrzany stempel 5 z 6</value>
+  </data>
+  <data name="PdfViewer_RevisedStampMenuItem" xml:space="preserve">
+    <value>Poprawiony stempel 6 z 6</value>
+  </data>
+  <data name="PdfViewer_SignHereDynamicStampMenuItem" xml:space="preserve">
+    <value>Stempel „Podpisz tutaj” 2 z 4</value>
+  </data>
+  <data name="PdfViewer_AcceptedStampMenuItem" xml:space="preserve">
+    <value>Zaakceptowany stempel 1 z 5</value>
+  </data>
+  <data name="PdfViewer_InitialHereStampMenuItem" xml:space="preserve">
+    <value>Stempel „Inicjał tutaj” 2 z 5</value>
+  </data>
+  <data name="PdfViewer_RejectedStampMenuItem" xml:space="preserve">
+    <value>Odrzucony stempel 3 z 5</value>
+  </data>
+  <data name="PdfViewer_SignHereStampMenuItem" xml:space="preserve">
+    <value>Stempel „Podpisz tutaj” 4 z 5</value>
+  </data>
+  <data name="PdfViewer_WitnessStampMenuItem" xml:space="preserve">
+    <value>Stempel świadka 5 z 5</value>
+  </data>
+  <data name="PdfViewer_StandardBusinessStampMenuItem" xml:space="preserve">
+    <value>Standardowy stempel biznesowy 3 z 4</value>
+  </data>
+  <data name="PdfViewer_ApprovedBusinesStampMenuItem" xml:space="preserve">
+    <value>Zaakceptowany stempel 1 z 12</value>
+  </data>
+  <data name="PdfViewer_CompletedBusinessStampMenuItem" xml:space="preserve">
+    <value>Zakończony stempel 2 z 12</value>
+  </data>
+  <data name="PdfViewer_ConfidentialBusinessStampMenuItem" xml:space="preserve">
+    <value>Poufny stempel 3 z 12</value>
+  </data>
+  <data name="PdfViewer_DraftBusinessStampMenuItem" xml:space="preserve">
+    <value>Roboczy stempel 4 z 12</value>
+  </data>
+  <data name="PdfViewer_FinalBuinessStampMenuItem" xml:space="preserve">
+    <value>Ostateczny stempel 5 z 12</value>
+  </data>
+  <data name="PdfViewer_ForCommentBusinessStampMenuItem" xml:space="preserve">
+    <value>Stempel „Do komentarza” 6 z 12</value>
+  </data>
+  <data name="PdfViewer_ForPublicReleaseBusinessStampMenuItem" xml:space="preserve">
+    <value>Stempel „Do publicznego udostępnienia” 7 z 12</value>
+  </data>
+  <data name="PdfViewer_InformationOnlyBusinessStampMenuItem" xml:space="preserve">
+    <value>Stempel „Tylko informacyjny” 8 z 12</value>
+  </data>
+  <data name="PdfViewer_NotApprovedBusinessStampMenuItem" xml:space="preserve">
+    <value>Niezaakceptowany stempel 9 z 12</value>
+  </data>
+  <data name="PdfViewer_NotForPublicReleaseBusinessStampMenuItem" xml:space="preserve">
+    <value>Stempel „Nie do publicznego udostępnienia” 10 z 12</value>
+  </data>
+  <data name="PdfViewer_PreliminaryResultsBusinessStampMenuItem" xml:space="preserve">
+    <value>Stempel Wstępnych Wyników 11 z 12</value>
+  </data>
+  <data name="PdfViewer_VoidBusinessStampMenuItem" xml:space="preserve">
+    <value>Anuluj Stempel 12 z 12</value>
+  </data>
+  <data name="PdfViewer_CustomStampMenuItem" xml:space="preserve">
+    <value>Stempel Niestandardowy 4 z 4</value>
+  </data>
+  <data name="PdfViewer_InsertSignature" xml:space="preserve">
+    <value>Wstaw Podpis</value>
+  </data>
+  <data name="PdfViewer_DrawFreehand" xml:space="preserve">
+    <value>Rysuj Ręcznie</value>
+  </data>
+  <data name="PdfViewer_FontFamilyComboEdit" xml:space="preserve">
+    <value>Edytor Rodziny Cząsteczek Czcionek</value>
+  </data>
+  <data name="PdfViewer_FontSizeComboEdit" xml:space="preserve">
+    <value>Edytor Rozmiaru Czcionki</value>
+  </data>
+  <data name="PdfViewer_FontColorComboEdit" xml:space="preserve">
+    <value>Edytor Koloru Czcionki</value>
+  </data>
+  <data name="PdfViewer_TextAlignComboEdit" xml:space="preserve">
+    <value>Edytor Wyrównania Tekstu</value>
+  </data>
+  <data name="PdfViewer_TextAlignToolbarPopupOpened" xml:space="preserve">
+    <value>Otwarty Popup Narzędzi Wyrównania Tekstu</value>
+  </data>
+  <data name="PdfViewer_AlignLeftMenuItem" xml:space="preserve">
+    <value>Wyrównaj w Lewo Pozycja Menu 1 z 4</value>
+  </data>
+  <data name="PdfViewer_AlignRightMenuItem" xml:space="preserve">
+    <value>Wyrównaj w Prawo Pozycja Menu 2 z 4</value>
+  </data>
+  <data name="PdfViewer_AlignCenterMenuItem" xml:space="preserve">
+    <value>Wyrównaj na Środek Pozycja Menu 3 z 4</value>
+  </data>
+  <data name="PdfViewer_JustifyMenuItem" xml:space="preserve">
+    <value>Justyfikuj Pozycja Menu 4 z 4</value>
+  </data>
+  <data name="PdfViewer_TextPropertiesComboEdit" xml:space="preserve">
+    <value>Edytor Właściwości Tekstu</value>
+  </data>
+  <data name="PdfViewer_TextPropertyToolbarPopupOpened" xml:space="preserve">
+    <value>Otwarty Popup Narzędzi Właściwości Tekstu</value>
+  </data>
+  <data name="PdfViewer_BoldIconMenuItem" xml:space="preserve">
+    <value>Pogrubiony Ikona Pozycja Menu 1 z 4</value>
+  </data>
+  <data name="PdfViewer_ItalicIconMenuItem" xml:space="preserve">
+    <value>Kursywa Ikona Pozycja Menu 2 z 4</value>
+  </data>
+  <data name="PdfViewer_StrikeOutIconMenuItem" xml:space="preserve">
+    <value>Przekreślony Ikona Pozycja Menu 3 z 4</value>
+  </data>
+  <data name="PdfViewer_UnderlineIconMenuItem" xml:space="preserve">
+    <value>Podkreślony Ikona Pozycja Menu 4 z 4</value>
+  </data>
+  <data name="PdfViewer_FillColorComboEdit" xml:space="preserve">
+    <value>Edytor Koloru Wypełnienia</value>
+  </data>
+  <data name="PdfViewer_StrokeColorComboEdit" xml:space="preserve">
+    <value>Edytor Koloru Konturu</value>
+  </data>
+  <data name="PdfViewer_ThicknessSlider" xml:space="preserve">
+    <value>Suwnica Grubości</value>
+  </data>
+  <data name="PdfViewer_OpacitySlider" xml:space="preserve">
+    <value>Suwnica Przezroczystości</value>
+  </data>
+  <data name="PdfViewer_CloseAnnotationToolbarButton" xml:space="preserve">
+    <value>Zamknij Przycisk Narzędzi Anotacji</value>
   </data>
   <data name="PdfViewer_InvalidPassword" xml:space="preserve">
     <value>Niepoprawne hasło. Proszę spróbuj ponownie.</value>
@@ -3678,11 +4005,17 @@
   <data name="PdfViewer_GoToPage" xml:space="preserve">
     <value>Idź do strony</value>
   </data>
-  <data name="PdfViewer_Nomatches" xml:space="preserve">
-    <value>Przeglądarka zakończy wyszukiwanie dokumentu. Nie znaleziono więcej dopasowań</value>
+  <data name="PdfViewer_NoMatches" xml:space="preserve">
+   <value>Przeglądarka zakończy wyszukiwanie dokumentu. Nie znaleziono dopasowań.</value>
   </data>
-  <data name="PdfViewer_NoTextFound" xml:space="preserve">
-    <value>Nie znaleziono tekstu</value>
+  <data name="PdfViewer_NoMoreMatches" xml:space="preserve">
+   <value>Przeglądarka zakończy wyszukiwanie dokumentu. Nie znaleziono więcej dopasowań.</value>
+  </data>
+  <data name="PdfViewer_NoSearchMatches" xml:space="preserve">
+   <value>Nie znaleziono dopasowań</value>
+  </data>
+  <data name="PdfViewer_NoMoreSearchMatches" xml:space="preserve">
+   <value>Nie znaleziono więcej dopasowań</value>
   </data>
   <data name="PdfViewer_Undo" xml:space="preserve">
     <value>Cofnij</value>
@@ -3728,6 +4061,9 @@
   </data>
   <data name="PdfViewer_Clienterror" xml:space="preserve">
     <value>Znaleziono błąd po stronie klienta. Sprawdź niestandardowe nagłówki podane we właściwości AjaxRequestSettings i metody akcji WWW we właściwości ServerActionSettings.</value>
+  </data>
+  <data name="PdfViewer_Corspolicyerror" xml:space="preserve">
+    <value>Dostęp do dokumentu jest ograniczony ze względu na politykę CORS. Proszę sprawdzić dokument.</value>
   </data>
   <data name="PdfViewer_OpenText" xml:space="preserve">
     <value>otwarty</value>
@@ -4143,6 +4479,39 @@
   <data name="DocumentEditor_Justify" xml:space="preserve">
     <value>Uzasadniać</value>
   </data>
+  <data name="DocumentEditor_OutlineLevel" xml:space="preserve">
+    <value>Poziom zarysu</value>
+  </data>
+  <data name="DocumentEditor_BodyText" xml:space="preserve">
+    <value>Tekst treści</value>
+  </data>
+  <data name="DocumentEditor_Level1" xml:space="preserve">
+    <value>Poziom 1</value>
+  </data>
+  <data name="DocumentEditor_Level2" xml:space="preserve">
+    <value>Poziom 2</value>
+  </data>
+  <data name="DocumentEditor_Level3" xml:space="preserve">
+    <value>Poziom 3</value>
+  </data>
+  <data name="DocumentEditor_Level4" xml:space="preserve">
+    <value>Poziom 4</value>
+  </data>
+  <data name="DocumentEditor_Level5" xml:space="preserve">
+    <value>Poziom 5</value>
+  </data>
+  <data name="DocumentEditor_Level6" xml:space="preserve">
+    <value>Poziom 6</value>
+  </data>
+  <data name="DocumentEditor_Level7" xml:space="preserve">
+    <value>Poziom 7</value>
+  </data>
+  <data name="DocumentEditor_Level8" xml:space="preserve">
+    <value>Poziom 8</value>
+  </data>
+  <data name="DocumentEditor_Level9" xml:space="preserve">
+    <value>Poziom 9</value>
+  </data>
   <data name="DocumentEditor_IndentFromLeft" xml:space="preserve">
     <value>Wcięcie od lewej</value>
   </data>
@@ -4325,6 +4694,15 @@
   </data>
   <data name="DocumentEditor_Heading6" xml:space="preserve">
     <value>Nagłówek 6</value>
+  </data>
+  <data name="DocumentEditor_Heading7" xml:space="preserve">
+    <value>Nagłówek 7</value>
+  </data>
+  <data name="DocumentEditor_Heading8" xml:space="preserve">
+    <value>Nagłówek 8</value>
+  </data>
+  <data name="DocumentEditor_Heading9" xml:space="preserve">
+    <value>Nagłówek 9</value>
   </data>
   <data name="DocumentEditor_ListParagraph" xml:space="preserve">
     <value>Lista ust</value>
@@ -4643,6 +5021,9 @@
   </data>
   <data name="DocumentEditor_Find" xml:space="preserve">
     <value>Odnaleźć</value>
+  </data>
+  <data name="DocumentEditor_Headings" xml:space="preserve">
+    <value>Nagłówki</value>
   </data>
   <data name="DocumentEditor_NoMatches" xml:space="preserve">
     <value>Brak wyników</value>
@@ -5370,6 +5751,9 @@
   <data name="DocumentEditorContainer_Find" xml:space="preserve">
     <value>Odnaleźć</value>
   </data>
+  <data name="DocumentEditorContainer_Headings" xml:space="preserve">
+    <value>Nagłówki</value>
+  </data>
   <data name="DocumentEditorContainer_LocalClipboard" xml:space="preserve">
     <value>Lokalny schowek</value>
   </data>
@@ -5838,6 +6222,24 @@
   <data name="DocumentEditorContainer_Ok" xml:space="preserve">
     <value>OK</value>
   </data>
+  <data name="DocumentEditorContainer_Changecase" xml:space="preserve">
+    <value>Zmień wielkość liter</value>
+</data>
+<data name="DocumentEditorContainer_Uppercase" xml:space="preserve">
+    <value>DUŻE LITERY</value>
+</data>
+<data name="DocumentEditorContainer_Lowercase" xml:space="preserve">
+    <value>Małe litery</value>
+</data>
+<data name="DocumentEditorContainer_SentenceCase" xml:space="preserve">
+    <value>Sprawa zdania</value>
+</data>
+<data name="DocumentEditorContainer_CapitalizeEachWord" xml:space="preserve">
+    <value>Każde słowo pisz wielką literą</value>
+</data>
+<data name="DocumentEditorContainer_ToggleCase" xml:space="preserve">
+    <value>Przełącz wielkość liter</value>
+</data> 
   <data name="Gantt_Touch_DialogTextOnClickingConnectorPoint" xml:space="preserve">
     <value>Wybierz inne zadanie</value>
   </data>
@@ -5978,5 +6380,203 @@
   </data>
   <data name="ImageEditor_UnSupportedDialogContent" xml:space="preserve">
     <value>Upuszczony plik nie jest obsługiwany.</value>
+  </data>
+  <data name="ImageEditor_DropText" xml:space="preserve">
+    <value>Upuść swój obraz tutaj lub</value>
+  </data>
+  <data name="DocumentEditorContainer_TabStopPosition" xml:space="preserve">
+<value>Pozycja zatrzymania tabulatora</value>
+</data>
+<data name="DocumentEditorContainer_DefaultTabStops" xml:space="preserve">
+<value>Domyślne tabulatory</value>
+</data>
+<data name="DocumentEditorContainer_TabStopsCleared" xml:space="preserve">
+<value>Tabulatory należy wyczyścić</value>
+</data>
+<data name="DocumentEditorContainer_Tabs" xml:space="preserve">
+<value>Zakładki</value>
+</data>
+<data name="DocumentEditor_Set" xml:space="preserve">
+<value>Ustawić</value>
+</data>
+<data name="DocumentEditor_Clear" xml:space="preserve">
+<value>Jasne</value>
+</data>
+<data name="DocumentEditor_ClearAll" xml:space="preserve">
+<value>Wyczyść wszystko</value>
+</data>
+<data name="DocumentEditor_Decimal" xml:space="preserve">
+<value>Dziesiętny</value>
+</data>
+<data name="DocumentEditor_Bar" xml:space="preserve">
+<value>Bar</value>
+</data>
+<data name="DocumentEditorContainer_Alignment" xml:space="preserve">
+<value>Wyrównanie</value>
+</data>
+<data name="DocumentEditorContainer_Leader" xml:space="preserve">
+<value>Lider</value>
+</data>
+<data name="DocumentEditorContainer_All" xml:space="preserve">
+<value>Wszystko</value>
+</data>
+<data name="DocumentEditor_BottomMargin" xml:space="preserve">
+<value>Dolny margines</value>
+</data>
+<data name="DocumentEditor_FirstLineIndent" xml:space="preserve">
+<value>Wcięcie pierwszego wiersza</value>
+</data>
+<data name="DocumentEditor_HangingIndent" xml:space="preserve">
+<value>Wiszące wcięcie</value>
+</data>
+<data name="DocumentEditor_LeftIndent" xml:space="preserve">
+<value>Lewe wcięcie</value>
+</data>
+<data name="DocumentEditor_LeftMargin" xml:space="preserve">
+<value>Lewy margines</value>
+</data>
+<data name="DocumentEditor_MoveTableColumn" xml:space="preserve">
+<value>Przesuń kolumnę tabeli</value>
+</data>
+<data name="DocumentEditor_RightIndent" xml:space="preserve">
+<value>Prawe wcięcie</value>
+</data>
+<data name="DocumentEditor_RightMargin" xml:space="preserve">
+<value>Prawy margines</value>
+</data>
+<data name="DocumentEditor_TopMargin" xml:space="preserve">
+<value>Górny margines</value>
+</data>
+<data name="DocumentEditor_LeftTab" xml:space="preserve">
+<value>Lewa zakładka</value>
+</data>
+<data name="DocumentEditor_CenterTab" xml:space="preserve">
+<value>Zakładka środkowa</value>
+</data>
+<data name="DocumentEditor_RightTab" xml:space="preserve">
+<value>Prawa zakładka</value>
+</data>
+<data name="DocumentEditor_DecimalTab" xml:space="preserve">
+<value>Tabulator dziesiętny</value>
+</data>
+<data name="DocumentEditor_BarTab" xml:space="preserve">
+<value>Zakładka Pasek</value>
+</data>
+  <data name="ImageEditor_OkBtnTooltip" xml:space="preserve">
+    <value>Zastosować</value>
+  </data>
+  <data name="ImageEditor_Annotation" xml:space="preserve">
+    <value>Adnotacja</value>
+  </data>
+  <data name="ImageEditor_CancelBtnTooltip" xml:space="preserve">
+    <value>Wyrzucać</value>
+  </data>
+  <data name="QueryBuilder_Null" xml:space="preserve">
+    <value>Jest zerowy</value>
+  </data>
+  <data name="QueryBuilder_NotNull" xml:space="preserve">
+    <value>Nie ma wartości null</value>
+  </data>
+  <data name="ImageEditor_StraightenTooltip" xml:space="preserve">
+    <value>Wyprostować</value>
+  </data>
+  <data name="PivotView_Combined" xml:space="preserve">
+    <value>Łączny</value>
+  </data>
+  <data name="QueryBuilder_NotStartsWith" xml:space="preserve">
+    <value>Nie zaczyna się od</value>
+  </data>
+  <data name="QueryBuilder_NotEndsWith" xml:space="preserve">
+    <value>Nie kończy się na</value>
+  </data>
+  <data name="QueryBuilder_LockGroup" xml:space="preserve">
+    <value>Grupa blokady</value>
+  </data>
+  <data name="QueryBuilder_UnlockGroup" xml:space="preserve">
+    <value>Odblokuj grupę</value>
+  </data>
+  <data name="QueryBuilder_LockRule" xml:space="preserve">
+    <value>Zasada blokady</value>
+  </data>
+  <data name="QueryBuilder_UnlockRule" xml:space="preserve">
+    <value>Odblokuj regułę</value>
+  </data>
+  <data name="QueryBuilder_CloneGroup" xml:space="preserve">
+    <value>Grupa klonów</value>
+  </data>
+  <data name="QueryBuilder_CloneRule" xml:space="preserve">
+    <value>Zasada klonowania</value>
+  </data>
+  <data name="ImageEditor_SaveDialogHeader" xml:space="preserve">
+    <value>Zapisz jako</value>
+  </data>
+  <data name="ImageEditor_SaveDialogClose" xml:space="preserve">
+    <value>Blisko</value>
+  </data>
+  <data name="ImageEditor_SaveDialogDownload" xml:space="preserve">
+    <value>Pobieranie</value>
+  </data>
+  <data name="ImageEditor_SaveImageSize" xml:space="preserve">
+    <value>Rozmiar obrazu:</value>
+  </data>
+  <data name="ImageEditor_SaveCustomBtnTooltip" xml:space="preserve">
+    <value>Zwyczaj</value>
+  </data>
+  <data name="ImageEditor_SaveImageQualityGood" xml:space="preserve">
+    <value>Dobry</value>
+  </data>
+  <data name="ImageEditor_SaveImageQualityGreat" xml:space="preserve">
+    <value>Świetnie</value>
+  </data>
+  <data name="ImageEditor_SaveImageQualityHighest" xml:space="preserve">
+    <value>Najwyższy</value>
+  </data>
+  <data name="ImageEditor_SaveDialogImageQuality" xml:space="preserve">
+    <value>Jakość</value>
+  </data>
+  <data name="ImageEditor_SaveInfoTooltip" xml:space="preserve">
+    <value>Opcja jakości obrazu jest dostępna tylko dla formatu JPEG</value>
+  </data>
+  <data name="ImageEditor_SaveDialogImageName" xml:space="preserve">
+    <value>Nazwa obrazu</value>
+  </data>
+  <data name="ImageEditor_SaveDialogImageFormat" xml:space="preserve">
+    <value>Format</value>
+  </data>
+  <data name="ImageEditor_ZOrderTooltip" xml:space="preserve">
+    <value>Porządek Z</value>
+  </data>
+  <data name="ImageEditor_BringToFront" xml:space="preserve">
+    <value>Przesuń na wierzch</value>
+  </data>
+  <data name="ImageEditor_BringForward" xml:space="preserve">
+    <value>Przenieść</value>
+  </data>
+  <data name="ImageEditor_SendToBack" xml:space="preserve">
+    <value>Wyślij wstecz</value>
+  </data>
+  <data name="ImageEditor_SendBackward" xml:space="preserve">
+    <value>Wyślij wstecz</value>
+  </data>
+  <data name="ImageEditor_OutlineColor" xml:space="preserve">
+    <value>Kolor konturu</value>
+  </data>
+  <data name="ImageEditor_RectRadius" xml:space="preserve">
+    <value>Redagować</value>
+  </data>
+  <data name="ImageEditor_Pixelate" xml:space="preserve">
+    <value>Piksele</value>
+  </data>
+  <data name="ImageEditor_Pixel_Size" xml:space="preserve">
+    <value>Rozmiar piksela</value>
+  </data>
+  <data name="ColorPicker_RecentColors" xml:space="preserve">
+    <value>Najnowsze kolory</value>
+  </data>
+  <data name="ImageEditor_Support_AND" xml:space="preserve">
+    <value>i</value>
+  </data>
+  <data name="AIAssistView_StopResponseText" xml:space="preserve">
+    <value>Przestań odpowiadać</value>
   </data>
 </root>
